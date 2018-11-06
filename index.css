@@ -1,0 +1,48 @@
+/* general */
+
+body {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+
+}
+
+div {
+  border: 1px solid red;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #3b5998;
+}
+
+/* Header */
+
+.header {
+  background-color: #3b5998;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 10% 15% 25% 15% 15% 5% 10%;
+  grid-template-rows: 82px;
+}
+
+.rightHeader {
+  display: inline;
+}
+
+/*  Main Body */
+
+.mainBody {
+  background-color: #dfe3ee;
+
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: 70%
+}
+
+.leftBody {
+  grid-column-start: 2;
+}
+
+/* Footer */
