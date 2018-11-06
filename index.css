@@ -23,7 +23,7 @@ a {
   color: white;
 
   display: grid;
-  grid-template-columns: 10% 15% 25% 15% 15% 5% 10%;
+  grid-template-columns: 10% 15% 25% 15% 15% 5% 12%;
   grid-template-rows: 82px;
 }
 
