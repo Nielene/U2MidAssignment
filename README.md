@@ -13,3 +13,5 @@ https://www.facebook.com/
 
 Facebook Color Palette - Color Hex
 https://www.color-hex.com/color-palette/185
+
+https://css-tricks.com/snippets/css/complete-guide-grid/ 

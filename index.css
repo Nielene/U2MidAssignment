@@ -3,6 +3,7 @@
 body {
   /* margin-left: 10%;
   margin-right: 10%; */
+  min-width: 980px;
 
 }
 
@@ -30,24 +31,49 @@ a {
 }
 
 .innerHeader {
-  grid-template-columns: 10% 12% 40% 12% 12% 4% 10%;
-  grid-template-rows: 78px;
+  width: 980px;
+
+  grid-column-start: 2 ;
+
+  display: grid;
+  grid-template-columns: 17% 44% 17% 17% 5%;
+  grid-template-rows: 20px 24px 16px;
 }
 
 .leftHeader {
-  grid-column-start: 2;
+  grid-column-start: 1;
+
+  width: 170px;
 }
 
-.emailLogIn {
+.emailLogInLabel {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.emailLogInInput {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.passwordLogInLabel {
   grid-column-start: 4;
+  grid-row-start: 1;
 }
 
-.passwordLogIn {
-  grid-column-start: 5;
+.passwordLogInSpace {
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.forgotAcct {
+  grid-column-start: 4;
+  grid-row-start: 3;
 }
 
 .logInButton {
-  grid-column-start: 6;
+  grid-column-start: 5;
+  grid-row-start: 2;
 }
 
 /*  Main Body */
@@ -56,13 +82,13 @@ a {
   background-color: #dfe3ee;
 
   display: grid;
-  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-columns: 10% 42% 38% 10%;
   grid-template-rows: 70%
 }
 
 .leftBody {
   grid-column-start: 2;
+  /* margin-right: 100px; */
 }
 
 /* Footer */
-/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
