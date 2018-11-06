@@ -23,12 +23,31 @@ a {
   color: white;
 
   display: grid;
-  grid-template-columns: 10% 15% 25% 15% 15% 5% 12%;
+  grid-template-columns: 10% 70% 10%;
   grid-template-rows: 82px;
+
+  /* flex-wrap: wrap; */
 }
 
-.rightHeader {
-  display: inline;
+.innerHeader {
+  grid-template-columns: 10% 12% 40% 12% 12% 4% 10%;
+  grid-template-rows: 78px;
+}
+
+.leftHeader {
+  grid-column-start: 2;
+}
+
+.emailLogIn {
+  grid-column-start: 4;
+}
+
+.passwordLogIn {
+  grid-column-start: 5;
+}
+
+.logInButton {
+  grid-column-start: 6;
 }
 
 /*  Main Body */
@@ -46,3 +65,4 @@ a {
 }
 
 /* Footer */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
